@@ -1,3 +1,4 @@
+/*
 //Importing Module
 // import { addToCart, totalPrice, totalQuantity } from './shoppingCart.js';
 console.log('Importing Module');
@@ -33,3 +34,27 @@ console.log(lastPost);
 
 const lastPost2 = await getLastPost();
 console.log(lastPost2);
+*/
+
+/*
+const shoppingCart2 = (function () {
+  const cart = [];
+  const shippingCost = 10;
+  const totalPrice = 250;
+  const totalQuantity = 20;
+
+  const addToCart = function (product, quantity) {
+    cart.push({ product, quantity });
+    console.log(`${quantity} ${product} add to cart.`);
+  };
+
+  const orderStock = function (product, quantity) {
+    cart.push({ product, quantity });
+    console.log(`${quantity} ${product} Order come from supplier.`);
+  };
+
+  return { cart, addToCart, orderStock, totalPrice };
+})();
+
+shoppingCart2.addToCart('apple', 20);
+*/
